@@ -26,6 +26,9 @@ read lions unix
 
 read eric raymond the art of unix programming
 
-read xv6 https://pdos.csail.mit.edu/6.828/2014/xv6/book-rev8.pdf
+xv6
+- https://pdos.csail.mit.edu/6.828/2011/xv6.html
+- https://pdos.csail.mit.edu/6.828/2014/xv6/book-rev8.pdf
+- https://github.com/guilleiguaran/xv6
 
 check out http://gernot-heiser.org/ sel4 work
