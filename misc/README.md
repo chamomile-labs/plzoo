@@ -101,3 +101,12 @@ curious about where these came from and how they were kept/discarded between bon
 * identifiers (names) don't turn into values automatically, you can have a list of names, or a list of values. to make coerce a name into a value you use the `[]` operators: `return([x])`
 * has official BNF syntax
 * arbitrary number of blanks may appear near syntactic structures (except for some exceptions)
+
+## pq (post query)
+- unix shell db language
+```
+- prefix, e.g.  pq mackin* got all mackin, mackintosh, mackinson, etc
+- soundex, e.g. pq mackin~ got all with the last name that sounding like mackin,
+    so names such as mackin, mckinney, mckinnie, mickin, mikami, etc
+```
+- this soundex thing is cool
