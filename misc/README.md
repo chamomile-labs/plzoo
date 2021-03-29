@@ -95,6 +95,10 @@ BLISS is an "expression language" rather than a "statement language".
 
 This means that every construct of the language that is not a declaration is an expression.
 
+*Clem:*
+> The original DEC \[drum printers] were OEM'ed from Centronix and were noted for always being a little random on the hammer timing and thus the print on the paper often looked like the characters bounced on the line. I remember the ones we had on the PDP-10s were awful and the issue with BLISS is that the dot operator is extremely important to your code and the dots were sometimes notoriously missing.
+
+
 ## pq (post query)
 - unix shell db language
 ```
