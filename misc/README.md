@@ -107,3 +107,15 @@ This means that every construct of the language that is not a declaration is an 
     so names such as mackin, mckinney, mckinnie, mickin, mikami, etc
 ```
 - this soundex thing is cool
+
+## miranda
+
+> Haskell was originally intended as a teaching language, and in particular as a less-license-encumbered version of the language Miranda, which was a popular teaching language at the time.
+
+[https://en.wikipedia.org/wiki/Miranda\_(programming\_language)](https://en.wikipedia.org/wiki/Miranda_(programming_language))
+
+## ISWIM
+
+https://en.wikipedia.org/wiki/ISWIM
+
+The Next 700 Programming Languages [URL](https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf)
