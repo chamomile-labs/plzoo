@@ -2,15 +2,15 @@ semantic web ontologies
 
 semantic web
 
-https://en.wikipedia.org/wiki/Fifth\_generation\_computer
+https://en.wikipedia.org/wiki/Fifth_generation_computer
 
 * based on first order logic (FOL)
 	- something over relations
 	- lambda calculus is something over functions
 	- FOL is similar to predicate logic
 
-* https://en.wikipedia.org/wiki/Robert\_Kowalski
-* https://en.wikipedia.org/wiki/Alain\_Colmerauer
+* https://en.wikipedia.org/wiki/Robert_Kowalski
+* https://en.wikipedia.org/wiki/Alain_Colmerauer
 
 * [The birth of Prolog](http://alain.colmerauer.free.fr/alcol/ArchivesPublications/PrologHistory/19november92.pdf) by Alain Colmerauer and Philippe Roussel 1992
 
