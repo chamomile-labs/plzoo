@@ -32,3 +32,7 @@ xv6
 - https://github.com/guilleiguaran/xv6
 
 check out http://gernot-heiser.org/ sel4 work
+
+https://www.bell-labs.com/usr/dmr/www/chist.html
+
+https://github.com/freebsd/freebsd-src/tree/main/bin
