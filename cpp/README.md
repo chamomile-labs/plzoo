@@ -12,3 +12,5 @@ https://github.com/MattPD/cpplinks
 
 https://github.com/lefticus
 
+https://github.com/lefticus/cppbestpractices
+
