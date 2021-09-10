@@ -36,3 +36,7 @@ check out http://gernot-heiser.org/ sel4 work
 https://www.bell-labs.com/usr/dmr/www/chist.html
 
 https://github.com/freebsd/freebsd-src/tree/main/bin
+
+https://github.com/angrave/SystemProgramming/wiki/C-Programming%2C-Part-5%3A-Debugging#valgrind
+
+https://github.com/gtr/unix
