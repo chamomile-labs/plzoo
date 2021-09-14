@@ -46,7 +46,7 @@ func split3(sum int) (x, y int) {
 }
 ```
 
-I labled my outputs as x and y (meaning variables x and y were defined on top), but I did not return them. 
+I labled my outputs as x and y (meaning variables x and y were defined on top), but ~~I did not return them~~ (see EDIT below). 
 Nothing is forcing me to actually return what I said I would return, as long as the types match.
 The same issue exists when passing arguments to functions, though, the only criteria for accepting arguments is that the peg is right-shaped for the hole.
 Maybe worth taking a look at keyword/named arguments in Python. Positional vs named arguments.
@@ -57,3 +57,15 @@ So is the right thing to just force the programmer to write `return x,y` (where 
 
 - Examples in other languages: http://rosettacode.org/wiki/Named_parameters
 - Relevant link: https://web.archive.org/web/20070502112455/http://plg.uwaterloo.ca/~rgesteve/cforall/named_pars.html
+
+EDIT: I misunderstood the construct, check this out
+
+> In this example, a deferred function increments the return value i after the surrounding function returns. Thus, this function returns 2:
+
+```go
+func c() (i int) {
+    defer func() { i++ }()
+    return 1
+}
+```
+So above when I wrote `return 10, 5`, that was equivalent to setting x to 10, y to 5, and then returning x and y. So the named return values ARE always what's being returned, just sometimes not explicitly by name. I don't know how I feel about this, with the amount of things Go yells at you about (e.g. braces not on same line), I feel like it could have afforded yelling at you for not returning the named return values explicitly by name.
