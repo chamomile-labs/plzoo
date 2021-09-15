@@ -22,4 +22,7 @@ resources and assorted details for each language are in their respective READMEs
 * Recursive Functions of Symbolic Expressions and Their Computation By Machine (McCarthy)
 
 ## Stuff
-* The task of the programming language designer "is consolidation not innovation". (Hoare, 1973).
+* "The task of the programming language designer "is consolidation not innovation". (Hoare, 1973).
+* "Symmetry is a complexity-reducing concept (co-routines include subroutines); seek it everywhere." (Perlis)
+* "Simplicity does not precede complexity, but follows it." (Perlis)
+* "Is it possible that software is not like anything else, that it is meant to be discarded: that the whole point is to see it as a soap bubble?"
