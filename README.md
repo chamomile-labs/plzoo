@@ -11,15 +11,19 @@ resources and assorted details for each language are in their respective READMEs
 ---
 
 ## Papers
-* Hints on Programming Language Design, (Hoare)
-* "Everything you always wanted to know about programming languages but were afraid to ask" (Hoare)
-* Communicating Sequential Processes” (Hoare)
+* Hints on Programming Language Design (Hoare)
+* Everything you always wanted to know about programming languages but were afraid to ask (Hoare)
+* Communicating Sequential Processes (Hoare)
 * The Emperor's Old Clothes (Hoare)
 * An Axiomatic Basis for Computer Programming (Hoare)
 * [The Lambda Papers](https://web.archive.org/web/20160510140804/http://library.readscheme.org/page1.html) (Sussman and Steele)
 * The Next 700 Programming Languages (Landin)
 * Can Programming Be Liberated from the von Neumann Style? (Backus)
 * Recursive Functions of Symbolic Expressions and Their Computation By Machine (McCarthy)
+* Programming considered as a human activity (Dijkstra)
+* go to statement considered harmful (Dijkstra)
+* The humble programmer (Dijkstra)
+* On the design of programming languages (Wirth)
 
 ## Stuff
 * "The task of the programming language designer "is consolidation not innovation". (Hoare, 1973).
