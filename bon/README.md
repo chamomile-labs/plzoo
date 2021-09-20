@@ -3,6 +3,23 @@
 [Bon User's Manual](http://people.csail.mit.edu/saltzer/Multics/MHP-Saltzer-060508/filedrawers/180.btl-misc/Scan%204.PDF)
 
 ... --> BCPL --> ... --> Bon --> B --> new B --> C
+
+> 44. Q:  What language preceded C?
+>
+> A: nb
+> 
+> Between B and C was NB. B was interpreted and typeless. NB was compiled and barely typed. C added structs and became powerful enough to rewrite the Unix kernel.
+>
+> 45. Q:  What language preceded B?
+> 
+> A: bon | fortran
+> 
+> BCPL is not the right answer.
+> 
+> https://commandcenter.blogspot.com/2020/01/unix-quiz-answers.html
+
+---
+
 ```bon
 x + 3
 a := 5
