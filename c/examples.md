@@ -17,5 +17,5 @@ struct Person {
 /* ... */
 
 struct Person jim = {"jim", 11};
-struct Person joe = {.age="12", .name="joe"};
+struct Person joe = {.age=12, .name="joe"};
 ```
