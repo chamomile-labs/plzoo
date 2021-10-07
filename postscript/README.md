@@ -1,15 +1,20 @@
 - http://paulbourke.net/dataformats/postscript/
 - https://github.com/when/postscript/tree/master/ref
 - https://personal.math.ubc.ca/~cass/graphics/manual/
+- http://hepd.pnpi.spb.ru/docs_html/ThinkingInPostScript.pdf
+  + looks good
 
-- https://ia802600.us.archive.org/5/items/pdfy-1U9Ry1_Qj0LPSR6e/monterey86.pdf
 - http://logand.com/sw/wps/
 
----
+## NeWS
+- https://ia802600.us.archive.org/5/items/pdfy-1U9Ry1_Qj0LPSR6e/monterey86.pdf
+- https://en.wikipedia.org/wiki/NeWS
+- https://medium.com/@slavapestov/yesterdays-news-c52f2be95205
+- http://bitsavers.trailing-edge.com/pdf/sun/NeWS/The_NeWS_Book_1989.pdf
+- http://art.net/~hopkins/Don/lang/NeWS.html
 
 ```
 James W. Adams
-unread,
 Oct 21, 1998, 3:00:00 AM
 to
 
