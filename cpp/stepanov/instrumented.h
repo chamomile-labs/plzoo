@@ -1,5 +1,5 @@
-#ifndef instrumented_H
-#define instrumented_H
+#ifndef INSTRUMENTED_H
+#define INSTRUMENTED_H
 
 namespace opcounts
 {
@@ -12,8 +12,13 @@ enum op_type {
 	NUM_COUNTS /* make sure this is always last */
 };
 
-const char *op_type_str[] = {"copy", "default_constructor", "assignment",
-	"equality", "comparison"};
+const char *op_type_str[] = {
+	"copy",
+	"default_constructor",
+	"assignment",
+	"equality",
+	"comparison"
+};
 
 int counts[NUM_COUNTS] = {0};
 }
