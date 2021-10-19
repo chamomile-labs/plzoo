@@ -5,6 +5,7 @@
 /* rand(), srand(), time() */
 #include <cstdlib>
 #include <ctime>
+#include <cstring> /* memset */
 
 #include "singleton.h"
 #include "pair.h"
