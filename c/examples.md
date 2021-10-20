@@ -33,6 +33,13 @@ typedef struct {
 } character;
 ```
 
+```c
+/* bit fields */
+struct Person {
+   unsigned int age:3;
+};
+```
+
 ## Comma Operator
 I came across this line:
 ```c
