@@ -119,3 +119,9 @@ This means that every construct of the language that is not a declaration is an 
 https://en.wikipedia.org/wiki/ISWIM
 
 The Next 700 Programming Languages [URL](https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf)
+
+## Fortress
+
+> Fortress was designed from the outset to have multiple syntactic stylesheets. Source code can be rendered as ASCII text, in Unicode, or as a prettied image. This would allow for support of mathematical symbols and other symbols in the rendered output for easier reading. An emacs-based tool called fortify transforms ASCII-based Fortress source code into LaTeX output.[2]
+
+> Fortress' designers made its syntax as close as possible to pseudocode and analyzed hundreds of computer science and mathematics papers, courses, books and journals using pseudocode to extract the common usage patterns of the English language and standard mathematical notation when used to represent algorithms in pseudocode. Then they made the compiler trying to maintain a one-to-one correspondence between pseudocode and executable Fortress.
