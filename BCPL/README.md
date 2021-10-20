@@ -1,0 +1,7 @@
+- Rudd Canaday, [How C Came to Be](http://www.ruddcanaday.com/how-c/)
+- University of Essex, [BCPL Reference Manual](http://rabbit.eng.miami.edu/info/bcpl_reference_manual.pdf)
+- Martin Richards, [BCPL Reference Manual](https://www.bell-labs.com/usr/dmr/www/bcpl.pdf)
+- Dennis Ritchie, [BCPL History and Links](https://www.bell-labs.com/usr/dmr/www/bcpl.html)
+- Ken Thompson, [Users' Reference to B](https://www.bell-labs.com/usr/dmr/www/kbman.html)
+- Dennis Ritchie [The Development of the C Language](https://www.bell-labs.com/usr/dmr/www/chist.html)
+- Martin Richards' [Home Page](https://www.cl.cam.ac.uk/~mr10/)
