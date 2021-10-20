@@ -40,3 +40,5 @@ https://github.com/freebsd/freebsd-src/tree/main/bin
 https://github.com/angrave/SystemProgramming/wiki/C-Programming%2C-Part-5%3A-Debugging#valgrind
 
 https://github.com/gtr/unix
+
+Jens Gustedt, [Modern C](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.708.2733&rep=rep1&type=pdf)
