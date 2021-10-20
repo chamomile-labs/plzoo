@@ -7,5 +7,7 @@
 - Martin Richards' [Home Page](https://www.cl.cam.ac.uk/~mr10/)
 
 - https://www.lysator.liu.se/c/alan-on-bcpl.html
+- https://www.lysator.liu.se/c/msb-on-b.html
+- http://www.lysator.liu.se/c/clive-on-bcpl.html
 - https://www.davros.org/c/bcpl.html
 - Martin Richards, [Young Persons Guide to BCPL Programming on the Raspberry Pi](https://www.cl.cam.ac.uk/~mr10/bcpl4raspi.pdf)
