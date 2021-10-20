@@ -5,3 +5,7 @@
 - Ken Thompson, [Users' Reference to B](https://www.bell-labs.com/usr/dmr/www/kbman.html)
 - Dennis Ritchie [The Development of the C Language](https://www.bell-labs.com/usr/dmr/www/chist.html)
 - Martin Richards' [Home Page](https://www.cl.cam.ac.uk/~mr10/)
+
+- https://www.lysator.liu.se/c/alan-on-bcpl.html
+- https://www.davros.org/c/bcpl.html
+- Martin Richards, [Young Persons Guide to BCPL Programming on the Raspberry Pi](https://www.cl.cam.ac.uk/~mr10/bcpl4raspi.pdf)
