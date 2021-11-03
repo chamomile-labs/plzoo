@@ -71,7 +71,7 @@ if( ... )
 7. Error handlers should handle errors. These routines should be thoroughly tested so that they do not intro- duce new errors or obfuscate old ones.
 8. Goto statements are generally a bad idea. Dijkstra observed this many years ago [1], but some programmers are difficult to convince. Our search for the cause of a bad pointer in the prolog interpreter’s main loop was complicated by the interesting weaving of control flow caused by the goto statements.
 
-[Advice for Writing Small Programs in C](https://www.youtube.com/watch?v=eAhWIO1Ra6M) by Sean Barrett
+### [Advice for Writing Small Programs in C](https://www.youtube.com/watch?v=eAhWIO1Ra6M) by Sean Barrett
 
 1. whenever you see strncpy(), there's a bug in the code. Nobody remembers if the `n` includes the terminating 0 or nor. I implemented it, and I never remember. I always have to look it up. Don't trust your memory on it. Same goes for all the `n` string functions.
 2. be aware of all the C string functions that do strlen. Only do strlen once. Then use memcmp, memcpy, memchr.
