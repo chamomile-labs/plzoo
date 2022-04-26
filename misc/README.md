@@ -125,3 +125,27 @@ The Next 700 Programming Languages [URL](https://www.cs.cmu.edu/~crary/819-f09/L
 > Fortress was designed from the outset to have multiple syntactic stylesheets. Source code can be rendered as ASCII text, in Unicode, or as a prettied image. This would allow for support of mathematical symbols and other symbols in the rendered output for easier reading. An emacs-based tool called fortify transforms ASCII-based Fortress source code into LaTeX output.[2]
 
 > Fortress' designers made its syntax as close as possible to pseudocode and analyzed hundreds of computer science and mathematics papers, courses, books and journals using pseudocode to extract the common usage patterns of the English language and standard mathematical notation when used to represent algorithms in pseudocode. Then they made the compiler trying to maintain a one-to-one correspondence between pseudocode and executable Fortress.
+
+## Jai
+
+> Arbitrary Compile-Time Code Execution
+
+Sometimes I get confused about compile-time execution, is the goal just to move as much run-time calculation to the compile-time stage (as a form of optimization)? Might as well run the whole program at compile-time and be done with it :P. That's only if I think too hard about it though. Saw this comment about C++ constexpr:
+> The primary usage of constexpr is to declare intent.
+Cool but not really that cool.
+
+To me, the real cool part about compile-time code execution is demonstrated by this example from [JaiPrimer](https://github.com/BSVino/JaiPrimer/blob/master/JaiPrimer.md):
+
+(my summary)
+
+1. we want to implement `float linear_to_srgb(float f)`, can calculate in typical manner using `pow()` but that's slow, make a pre-calculated lookup table instead
+2. write a helper program to build lookup table, paste results in lookup table in main program
+3. So we now have to maintain two separate source codes. This can get unwieldy for large programs.
+4. `srgb_table: [] float = #run generate_linear_srgb();`, #run invokes the compile time execution
+5. > The compile-time function execution has very few limitations; in fact, you can run arbitrary code in your code base as part of the compiler. The first demonstration of Jai shows how to run an entire game as part of the compiler, and bake the data from the game into the program binary. The compiler builds the compile-time executed functions to a special bytecode language and runs them in an interpreter, and the results are funneled back into the source code. The compiler then continues as normal.
+
+I often find myself writing a little program to generate parts of another program (then copying it over). It's usually like a python script or shell script with some hardcoded strings and string interpolation + basic logic, copy it, massage it in vim a little after pasting it into the main program, etc. METAPROGRAMMING.
+
+If you combine this mechanism with something like Julia's exposing of the language's AST and so on, maybe you can do some really cool stuff.
+
+Yeah, maybe I don't ever want to debug that in a giant legacy codebase (or do I? maybe it'll reduce code-duplication and make things simpler). Either way, not all programming has to be from the perspective of corporations.
