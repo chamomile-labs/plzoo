@@ -128,7 +128,7 @@ The Next 700 Programming Languages [URL](https://www.cs.cmu.edu/~crary/819-f09/L
 
 ## Jai
 
-> Arbitrary Compile-Time Code Execution
+### Arbitrary Compile-Time Code Execution
 
 Sometimes I get confused about compile-time execution, is the goal just to move as much run-time calculation to the compile-time stage (as a form of optimization)? Might as well run the whole program at compile-time and be done with it :P. That's only if I think too hard about it though. Saw this comment about C++ constexpr:
 > The primary usage of constexpr is to declare intent.
@@ -149,3 +149,18 @@ I often find myself writing a little program to generate parts of another progra
 If you combine this mechanism with something like Julia's exposing of the language's AST and so on, maybe you can do some really cool stuff.
 
 Yeah, maybe I don't ever want to debug that in a giant legacy codebase (or do I? maybe it'll reduce code-duplication and make things simpler). Either way, not all programming has to be from the perspective of corporations.
+
+### Integrated Build
+
+> All information for building a program is contained within the source code of the program. Thus there is no need for a make command or project files to build a Jai program. As a simple example:
+>
+> ```
+> build :: () {
+>    build_options.executable_name = "my_program";
+>    print("Building program '%'\n", build_options.executable_name);
+>    build_options.optimization_level = Optimization_Level.DEBUG;
+>    ...
+>}
+>
+> #run build();
+Cool idea
