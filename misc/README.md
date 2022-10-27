@@ -164,3 +164,35 @@ Yeah, maybe I don't ever want to debug that in a giant legacy codebase (or do I?
 >
 > #run build();
 Cool idea
+
+### Perl
+
+Perl has some really weird parts that overall make me dislike it, but at times I find that I like it more than Python.
+
+I really like the given/when construct; it's not super special but it feels good to write it:
+```perl
+sub cast {
+   my ($data, $type) = @_;
+   
+   given ($type) {
+       when ("csv") {
+           my @csv = split ',', $data;
+	   return \@csv;
+       }
+       when ([qw(integer long double float short byte]) {
+           return $data * 1;
+       }
+       when ("boolean") {
+           return min_es_version(6) ? bool($data) : $data * 1;
+       }
+       default {
+           return $data;
+       }
+   }
+}
+```
+
+### Tcl
+Antirez's http://antirez.com/articoli/tclmisunderstood.html really made me like the idea of Tcl. I was biased against it by Stallman's Tcl diatribe, but now I realize I've been missing a string oriented metaprogramming language in my life... (see above discussion regarding me using strings in Python/shell scripts to generate other programs).
+
+Random thought: I often use the Python REPL as a calculator. This is mostly limited to reasoning with numbers though. It would be cool to have a string calculator REPL (whatever that means). I kind of use vim like that already except the language is a bunch of random letters rather than an actual language...
