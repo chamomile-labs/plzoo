@@ -192,6 +192,9 @@ sub cast {
 }
 ```
 
+"Perl defines its built-in data types based on their multiplicity rather than the semantic types commonly found in other languages"
+
+
 ### Tcl
 Antirez's http://antirez.com/articoli/tclmisunderstood.html really made me like the idea of Tcl. I was biased against it by Stallman's Tcl diatribe, but now I realize I've been missing a string oriented metaprogramming language in my life... (see above discussion regarding me using strings in Python/shell scripts to generate other programs).
 
